@@ -8,7 +8,7 @@ let classesContainer= document.querySelector(".classes");
 //create element to show the classes
 let classContainer= document.createElement("div");
 classContainer.classList.add('class');
-
+refreshClasses();
 
 addInput.addEventListener("blur",function addElement(e){
     
