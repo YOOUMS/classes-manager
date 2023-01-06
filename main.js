@@ -42,8 +42,8 @@ removeInput.addEventListener("blur",function removeElement(e){
 
 
 function refreshClasses(){
-    let classes =currentElement.classList;
-    
+    let classes =[...currentElement.classList].sort();
+  
     classesContainer.innerHTML="";
     if(classes.length==0){
         classesContainer.appendChild(document.createTextNode("No Classes To Show"));
