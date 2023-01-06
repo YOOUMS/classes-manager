@@ -1,0 +1,52 @@
+
+
+.main-container,body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5% ;
+    gap: 10px;
+    
+}
+.main-container{
+    width: 400px;
+}
+.inputs{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content:space-between;
+    
+}
+input{
+    height: 30px;
+    border: 0.05em solid #dddddd;
+    forced-color-adjust: none;
+    padding: 0px 10px; 
+
+}
+
+#current-element,.classes-container{
+    background-color: #ebeaf1;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.classes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.class{
+    border: none;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding:5px;
+}
